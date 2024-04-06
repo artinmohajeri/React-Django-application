@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e0e0e0;
+    background-color: #1f1f1f;
+}
+
+#main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#create-room-container, #join-container, #home-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.MuiOutlinedInput-notchedOutline{
+    border-color: white !important;
+}
+
+.MuiInput-underline:before{
+    border-bottom-color: #c7c7c7 !important;
+}
+.MuiInput-underline:before:hover{
+    border-bottom: 1px solid #c7c7c7 !important;
+}
+.MuiInput-underline:after{
+    border-bottom-color: white !important;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#votes-label,
+#votes {
+    color: #e0e0e0;
+}
+
+.MuiInput-underline:after {
+    border-bottom: 2px solid #e0e0e0;
+}
+.MuiInput-underline:before{
+    border-bottom: 1px solid #e0e0e0;
+}
