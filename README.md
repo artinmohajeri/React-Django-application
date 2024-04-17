@@ -20,6 +20,12 @@ install django packages 👇
 pip install -r requirements.txt
 ```
 
+do the migration part 👇
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
 run the django server 👇
 ```
 python manage.py runserver
